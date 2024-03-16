@@ -9,17 +9,17 @@ describe("Checks on webpage", () => {
     cy.visit('/')
   })
 
-  it("test case1", () => {
+  it("Insta Status Checks", () => {
     cy.InstaStatus()
   })
 
 
-  it("test case2", () => {
+  it("Hit Like comments", () => {
     cy.hitLikeCommentbuttons();
   })
 
 
-  it("test case1", () => {
+  it("Check Accounts", () => {
     cy.checkAccount()
   })
 
